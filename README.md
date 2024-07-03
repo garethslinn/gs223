@@ -11,6 +11,7 @@ The goal was to build a web application using React and TypeScript that fetches 
 - [Features](#features)
 - [Runbook](#runbook)
 - [Future Improvements](#future-improvements)
+- [Additional Note](#additional-note)
 
 ## Installation
 
@@ -21,8 +22,12 @@ unzip flexera-test.zip
 cd flexera-test
 npm install
 ```
-
-
+ OR 
+```sh
+git clone https://github.com/garethslinn/gs223.git
+cd gs223
+npm install
+``` 
 
 ## Features
 
@@ -71,3 +76,10 @@ If I had more time...
 - **Added Header and Footer**: I did consider this might be over-kill but was thought about.
 - **Introduce sonarQube**: To ensure contuned cond coverage and reduced cognitive complexity.
 - **Integrating more icons**: Ideally these should be included with the pagination arrows, I did start this but ran into some issues to do with the layout looking quite random.  Thinking this through these could be made into icon buttons.  
+
+
+## Additional Note
+
+As you may know, the API has usage limits that are tracked by IP address. This can cause the API to 
+become unresponsive if the limits are exceeded. I've noticed that this intermittently affects my 
+Cypress tests, causing them to sometimes fail and require re-running. Just something I've observed.
