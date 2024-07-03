@@ -29,6 +29,11 @@ cd gs223
 npm install
 ``` 
 
+## url
+```sh
+http://localhost:3000/
+``` 
+
 ## Features
 
 - **Fetch and Display Repositories**: The application fetches repositories from the GitHub API and displays them with pagination.
