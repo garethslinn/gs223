@@ -6,8 +6,6 @@ This application was developed as a technical test for Flexera.
 The goal was to build a web application using React and TypeScript that fetches and displays GitHub repositories, allows users to flag repositories for visibility, and supports pagination.
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
 - [Features](#features)
 - [Runbook](#runbook)
 - [Future Improvements](#future-improvements)
